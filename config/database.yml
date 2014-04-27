@@ -1,8 +1,37 @@
-development: &default
-  adapter: postgresql
-  database: copycopter_development
-  min_messages: WARNING
+#development: &default
+#  adapter: postgresql
+#  database: copycopter_development
+#  min_messages: WARNING
+#
+#test: &test
+#  <<: *default
+#  database: copycopter_test
 
-test: &test
-  <<: *default
+development:
+  adapter: mysql
+  encoding: utf8
+  database: copycopter_development
+  username: darpanp_root
+  password: root123
+  host: localhost
+  timeout:5000
+
+
+test:
+  adapter: mysql
+  encoding: utf8
   database: copycopter_test
+  username: darpanp_root
+  password: root123
+  host: localhost
+  timeout:5000
+
+
+production:
+  adapter: mysql
+  encoding: utf8
+  database: darpanp_copter_prod
+  username: darpanp_root
+  password: root123
+  host: localhost
+  timeout:5000 

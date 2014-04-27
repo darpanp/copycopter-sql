@@ -1,7 +1,7 @@
 <% content_for :title, 'Blurbs' %>
 
 <% content_for :locales do %>
-  <% @project.locales.enabled_in_order.each do |locale| -%>
+  <% @project.locales.each do |locale| -%>
     <li>
       <%= link_to locale.key, project_path(@project, :locale_id => locale.id) %>
     </li>
