@@ -4,6 +4,7 @@ require 'rails'
 require 'active_record/railtie'
 require 'action_controller/railtie'
 require 'rails/test_unit/railtie'
+require 'sprockets/railtie'
 
 if defined? Bundler
   Bundler.require :default, Rails.env
