@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
 gem 'dynamic_form', '1.1.4'
 gem 'flutie', '1.3.3'
