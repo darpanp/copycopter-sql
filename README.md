@@ -1,3 +1,14 @@
+IMPORTANT
+=========
+For development servers - you need to comment the capybara gem
+
+This is a good working copy of the service hosted on cloud compute server on vexxhost
+Cloud66 had to fix something on their side for this to be deployed correctly.
+This copy is also pushed to github at https://github.com/darpanp/copycopter-sql.git
+
+check for git remote -v
+
+
 Copycopter
 ==========
 
